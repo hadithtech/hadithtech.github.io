@@ -1,0 +1,26 @@
+body{
+    background-color: #fffdf9;
+}
+
+.flex {
+    display: flex;
+    flex: content;
+    flex-direction: column;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.revue-form-group {
+    margin: 3%;
+}
+.revue-form-actions{
+    margin: 5%;
+
+}
+ p {
+     padding: 0 10% 0 10%;
+     text-align: center;
+     margin: 8px;
+ }
