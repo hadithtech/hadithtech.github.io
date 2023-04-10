@@ -2,14 +2,18 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **level up** your business"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "Futuristic **podcast** with technology leaders"
+  text: "Fireside tech **podcast** with technology leaders. This podcast hosts people to talk about their experience, most valuable work for them and their vision"
 
   buttonPrimary:
-    label: "How we work"
-    url: "#"
+    label: "Listen (English)"
+    url: "https://anchor.fm/hadith-tech-en"
+  buttonPrimary2:
+    label: "Listen (Arabic)"
+    url: "https://anchor.fm/hadith-tech"
 
   buttonSecondary:
-    label: "Let's talk"
-    url: ""
+    label: "Watch (both)"
+    url: "https://www.youtube.com/@hadithtech/podcasts"
+  
 
