@@ -1,25 +1,21 @@
-+++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-+++
+---
+title: 'Our Difference'
+button: 'About us'
+weight: 2
+---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+# About Hadith Tech
+Hadith Tech is a fireside tech interviews podcast and stream, started with GitHub Education support. The show started in Arabic and grow to become top 5 in the technology sector at Apple Podcast. The podcast started an English show as well.
 
-Hugo makes use of a variety of open source projects including:
+## Core goals:
+### Share success stories:
+Our goal is to share success stories with our audience, talk with tech leaders and share the hidden part of the story. We talk about their experience, the work they are doing now and how they see the future of technology.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+### Lead by example:
+We aim to have evergreen talks and conversations that help people in their career and life, empower them with new perspective and show them true leaders from the industry. Those leaders share their stories at how they started.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+#### Authenticity:
+Our show is online and we do it live without edits or even background music, we accept the questions from audience as well and provide it to the speaker. By doing this we aim to cover the bridge between them and our audience and empower new generations to get into technology.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+## About Abdurrahman Rajab
+Abdurrahman Rajab is the host of Hadith tech, he is a software engineer. He worked during his life in startups and invested his time in building and empowering tech communities in his region. He has been invited to talk at few conferences and TV channels. He worked with RapidAPI, Insider and few startups.
