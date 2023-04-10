@@ -1,5 +1,6 @@
 # hadith_tech
 Hadith tech show repo
 
-The template is based on the podca design:
-[Podca on GitHub](https://github.com/technext/podca)
+Change log: 
+First template (HTML): [Podca on GitHub](https://github.com/technext/podca)
+Second template (Hugo): [business up](https://themes.gohugo.io/themes/up-business-theme/) 
