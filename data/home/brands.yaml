@@ -1,9 +1,0 @@
-enabled: true
-id: "brands"
-
-content:
-  title: "Our guests worked at"
-  items:
-    - "images/GitHub.jpeg"
-    - "images/brands-google.png"
-    - "images/microsoft.png"

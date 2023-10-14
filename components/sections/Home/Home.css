@@ -1,0 +1,57 @@
+.home__container {
+  display: grid; 
+  gap: 20px; 
+}
+@media (min-width: 1280px) {
+  .home__container {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: 
+      "Text1 Text1 Image1 Image1"
+      "Box1 Box1 Image1 Image1"; 
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .home__container {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-areas: 
+      "Text1 Text1 Image1 Image1"
+      "Text1 Text1 Image1 Image1"
+      "Box1 Box1 Box1 Box1"; 
+  }
+}
+@media (max-width: 767px) {
+  .home__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Box1 {
+    height: 160px !important;
+  }
+  .Image1 {
+    height: 400px;
+  }
+}
+.Image1 { grid-area: Image1; }
+.Text1 { grid-area: Text1; }
+.Box1 { grid-area: Box1; }
+
+.banner-video-overlay {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftownsquare.media%2Fsite%2F564%2Ffiles%2F2020%2F08%2FGettyImages-1151221544.jpg%3Fw%3D1200%26h%3D0%26zc%3D1%26s%3D0%26a%3Dt%26q%3D89&f=1&nofb=1&ipt=c4ef03e6714fe11fd7ce3d106190b70e11446ae68b3234ff4631610f22960835&ipo=images");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.Box1 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftownsquare.media%2Fsite%2F564%2Ffiles%2F2020%2F08%2FGettyImages-1151221544.jpg%3Fw%3D1200%26h%3D0%26zc%3D1%26s%3D0%26a%3Dt%26q%3D89&f=1&nofb=1&ipt=c4ef03e6714fe11fd7ce3d106190b70e11446ae68b3234ff4631610f22960835&ipo=images");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
