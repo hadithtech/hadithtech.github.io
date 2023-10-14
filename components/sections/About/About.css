@@ -1,0 +1,16 @@
+@media (min-width: 420px) and (max-width: 640px)  {
+  .xs\:text-2xl {
+    font-size: 1.6rem/* 24px */;
+    line-height: 2rem/* 32px */;
+  }
+  .xs\:max-w-\[380px\] {
+    max-width: 380px;
+  }
+  .xs\:text-xl {
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;  
+  }
+  .xs\:leading-\[36px\] {
+    line-height: 38px;
+  }
+}
